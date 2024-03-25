@@ -32,4 +32,19 @@ header {
   width: 60%;
   margin: 0 auto;
   margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.todo {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#removeButton {
+  margin-left: 1.5rem;
+  float: right;
 }
