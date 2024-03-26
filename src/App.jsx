@@ -32,7 +32,7 @@ export default function App() {
           {todos.map(item => {
             return(
               <div key={generateUUID()} className='todo'>
-                <p className='text-2xl'>{item}</p>
+                <p className='text-xl'>{item}</p>
                 <button className="btn btn-outline btn-error" id='removeButton' onClick={() => removeTodo(item)}>entfernen</button>
               </div>
             );
