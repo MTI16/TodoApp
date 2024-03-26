@@ -25,7 +25,7 @@ export default function App() {
           <input type="text" placeholder="Was muss ich machen.." className="input input-bordered w-full max-w-xs" 
           value={input}
           onChange={e => setInput(e.target.value)}/>
-          <button className="btn btn-outline btn-success" id='addButton' onClick={addTodo}>add</button>
+          <button className="btn btn-outline btn-success" id='addButton' onClick={addTodo}>hinzufügen</button>
         </div>
         <div className="divider divider-neutral" id='divider'></div>
         <div className="container-todos">
@@ -33,7 +33,7 @@ export default function App() {
             return(
               <div key={generateUUID()} className='todo'>
                 <p className='text-2xl'>{item}</p>
-                <button className="btn btn-outline btn-error" id='removeButton' onClick={() => removeTodo(item)}>remove</button>
+                <button className="btn btn-outline btn-error" id='removeButton' onClick={() => removeTodo(item)}>entfernen</button>
               </div>
             );
           })}
