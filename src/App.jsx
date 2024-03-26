@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { generateUUID } from 'three/src/math/MathUtils';
 import './App.css';
-import { Reorder } from 'framer-motion';
 
 export default function App() {
   const [todos, setTodos] = useState([]);
