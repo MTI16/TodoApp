@@ -1,5 +1,7 @@
 # Todo App
 
-Todo App build with React
+Simple todo app build with React
+
+view page https://todo-app-ten-ruddy.vercel.app/
 
 
